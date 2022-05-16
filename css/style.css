@@ -1,0 +1,174 @@
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+
+ /* General Styles */
+
+ html {
+     font-size: 100%;
+     color:white;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ main {
+    background-color: #2e3141
+ }
+
+ footer {
+    background-color: #2e3141
+ }
+
+ /* Background Styles */
+
+ #banner {
+    padding: 10rem;
+    background-color: #2e3141
+ }
+
+
+
+ /* Hero Style */
+
+ #greeting {
+    padding: 7rem;
+    background-color: #4c5c96;
+    display: flex; 
+ }
+
+.content {
+    font-size: large;
+    text-align: right;
+} 
+
+.content h1 {
+    font-size: larger;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+#greeting img {
+    height: 15rem;
+    border-radius: 50%;
+    margin: 0 0 5rem 5rem;
+}
+
+/* Projects */
+
+.projects {
+    padding: 3rem 10rem 3rem 10rem;
+}
+
+.projects h2 {
+    height: 40px;
+    border-bottom: solid white 2px;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: calc(40% - 4rem);
+    margin: 2rem 4rem 2rem 0;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: left;
+    flex-grow: 1;
+    background-color: #353849;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-text-wrapper {
+    background-color: #353849;
+}
+
+.card h3 {
+    font-size: 21px;
+    padding: 1rem 0 1rem 0;
+    margin: 0 1rem 1rem 1rem;
+    border-bottom: solid white 2px;
+}
+
+.card p {
+    padding: 0 1rem 1rem 1rem;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-link {
+    font-size: 21px;
+    padding: 1rem 0 3rem 0;
+    margin: 1.5rem 1rem 1rem 1rem;
+}
+
+.card-link a {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+#card2,
+#card4 {
+    margin-right: 0;
+}
+
+/* Contact */
+
+#lower-banner {
+    padding: 1rem;
+    background-color: #2e3141
+ }
+
+ .contact {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-align: left;   
+    padding: 0 7rem 0 7rem;
+}
+
+.contact h2 {
+    font-size: 22px;
+    padding-bottom: 1rem;
+    border-bottom: solid white 1px;
+    margin: 0;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-link {
+    font-size: 24px;
+    padding: 1rem;
+}
+
+ .contact-link a {
+    color: white;
+    text-decoration: none;
+ }
+
+.copyright {
+
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(185, 185, 185);
+    text-align: left;   
+    padding: 1rem 0 7rem 0;
+    margin: 0 7rem 0 7rem;
+    border-top: solid white 1px;
+}
