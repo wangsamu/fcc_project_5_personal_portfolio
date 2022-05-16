@@ -20,11 +20,14 @@
     ></script>
   </head>
   <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
     <header>
+      <nav id="navbar">
+        <div class="nav-items">
+          <a href="#footer" class="nav-link">I'm the navbar</a>
+        </div>
+      </nav>
       <section id="banner"></section>
-      <section id="greeting">
+      <section id="welcome-section">
         <section class="content">
           <h1>Hello! I'm Samuel Li Wang.</h1>
           <p>
@@ -41,9 +44,9 @@
     </header>
     <main>
       <!-- this first section is for PORTADA, CLAIM in English -->
-      <section class="projects">
+      <section id="projects">
         <h2>MY PROJECTS</h2>
-        <div class="card-container">
+        <div class="project-tile">
           <div class="card" id="card1">
             <img src="./images/background_image.jpg" alt="project preview" />
             <div class="card-text-wrapper">
@@ -61,13 +64,12 @@
           <div class="card" id="card2">
             <img src="./images/background_image.jpg" alt="project preview" />
             <div class="card-text-wrapper">
-              <h3>Project 1</h3>
+              <h3>Foca Page</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Voluptas, asperiores?
+                Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca Foca.
               </p>
               <div class="card-link">
-                <a href="" target="_blank">SEE THE CODE</a>
+                <a href="https://codepen.io/wangsamu/pen/GRQpprv" target="_blank">SEE THE CODE</a>
               </div>
             </div>
           </div>
@@ -114,7 +116,7 @@
           </div>
   
           <div class="contact-link">
-            <a href="" target="_blank"
+            <a href="https://github.com/wangsamu" target="_blank" id="profile-link"
               ><i class="fa-brands fa-github"></i></i>GitHub</a
             >
           </div>
@@ -122,7 +124,7 @@
       </section>
 
     </main>
-    <footer>
+    <footer id="footer">
       <div class="copyright">
         <p>
           Barcelona, 2022
